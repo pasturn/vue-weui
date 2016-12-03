@@ -1,24 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <WeuiButton />
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Button from './pages/WeuiButton'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    'WeuiButton': Button
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
